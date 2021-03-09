@@ -1,0 +1,20 @@
+# Logs
+*.log
+
+# Compile files
+*.class
+*.py[co]
+*.py?
+
+
+*.sqlite3
+*.sqlite
+*~
+
+/.vscode
+__pycache__
+myvenv
+/static
+.DS_Store
+
+settings.py

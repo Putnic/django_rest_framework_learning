@@ -1,0 +1,153 @@
+{
+  "ver": "1.01",
+  "models": [
+    {
+      "model": "category",
+      "items": [
+        {
+          "name": "Белье",
+          "guid": "1cf9dbe7-27ae-11e9-8f8f-ac220b51d18c"
+        },
+        {
+          "name": "Купальники раздельные",
+          "guid": "1cf9dbf7-27ae-11e9-8f8f-ac220b51d18c",
+          "parent": "1cf9dbed-27ae-11e9-8f8f-ac220b51d18c"
+        },
+        {
+          "name": "Купальники",
+          "guid": "1cf9dbed-27ae-11e9-8f8f-ac220b51d18c"
+        },
+        {
+          "name": "Купальники слитные",
+          "guid": "d8ce39b5-2b6c-11e9-bb92-ac1f6b6e045a",
+          "parent": "1cf9dbe7-27ae-11e9-8f8f-ac220b51d18c"
+        },
+        {
+          "name": "Одежда",
+          "guid": "d8ce39b8-2b6c-11e9-bb92-ac1f6b6e045a"
+        },
+        {
+          "name": "Туники",
+          "guid": "d8ce39c5-2b6c-11e9-bb92-ac1f6b6e045a",
+          "parent": "1cf9dbf7-27ae-11e9-8f8f-ac220b51d18c"
+        }
+      ]
+    },
+    {
+      "model": "Color",
+      "items": [
+        {
+          "name": "Белый",
+          "guid": "7e4ffcf4-3dd7-11e9-bb93-ac1f6b6e041e",
+          "hexcode": "FFFFFF"
+        },
+        {
+          "name": "Голубой",
+          "guid": "a5178985-3dd9-11e9-bb93-ac1f6b6e041e",
+          "hexcode": "42AAFF"
+        },
+        {
+          "name": "Розовый",
+          "guid": "6a6ab601-59ba-11e9-bba5-ac1f6b7679b4",
+          "hexcode": "A0A0A0"
+        },
+        {
+          "name": "Бирюзовый/розовый",
+          "guid": "94696a52-508e-11e9-bb8f-ac1f6b6e0406",
+          "hexcode": "1D1D1D"
+        },
+        {
+          "name": "Розовый/золотой",
+          "guid": "94696a5f-508e-11e9-bb8f-ac1f6b6e0406",
+          "hexcode": "EEEEEE"
+        },
+        {
+          "name": "Золотой",
+          "guid": "94696a67-508e-11e9-bb8f-ac1f6b6e0406",
+          "hexcode": "94696a"
+        },
+        {
+          "name": "Зеленый",
+          "guid": "94696a6c-508e-11e9-bb8f-ac1f6b6e0406",
+          "hexcode": "008000"
+        },
+        {
+          "name": "Голубой в полоску",
+          "guid": "94696a7d-508e-11e9-bb8f-ac1f6b6e0406",
+          "hexcode": "FEFEFE"
+        },
+        {
+          "name": "Серый в полоску",
+          "guid": "94696a80-508e-11e9-bb8f-ac1f6b6e0406",
+          "hexcode": "AAAAAA"
+        },
+        {
+          "name": "Черный",
+          "guid": "94696a8d-508e-11e9-bb8f-ac1f6b6e0406",
+          "hexcode": "DDDDDD"
+        }
+      ]
+    },
+    {
+      "model": "Products",
+      "items": [
+        {
+          "name": "SIREN SONG TRIANGLE TOP",
+          "guid": "30ced8b3-3b1d-11e9-bb8f-ac1f6b67576f",
+          "price": 0,
+          "category": "d8ce39c5-2b6c-11e9-bb92-ac1f6b6e045a",
+          "color": "7e4ffcf4-3dd7-11e9-bb93-ac1f6b6e041e"
+        },
+        {
+          "name": "SIREN SONG TRIANGLE TOP",
+          "guid": "30ced8b3-3b1d-11e9-bb8f-ac1f6b67576f",
+          "price": 0,
+          "category": "1cf9dbf7-27ae-11e9-8f8f-ac220b51d18c",
+          "color": "7e4ffcf4-3dd7-11e9-bb93-ac1f6b6e041e"
+        },
+        {
+          "name": "DRIFTWOOD RUFFLE ONE PIECE",
+          "guid": "30ced8ba-3b1d-11e9-bb8f-ac1f6b67576f",
+          "price": 7000,
+          "category": "1cf9dbf7-27ae-11e9-8f8f-ac220b51d18c",
+          "color": "7e4ffcf4-3dd7-11e9-bb93-ac1f6b6e041e"
+        },
+        {
+          "name": "NADIA TRIANGLE TOP",
+          "guid": "94696a87-508e-11e9-bb8f-ac1f6b6e0406",
+          "price": 5000,
+          "category": "1cf9dbf7-27ae-11e9-8f8f-ac220b51d18c",
+          "color": "94696a8d-508e-11e9-bb8f-ac1f6b6e0406"
+        },
+        {
+          "name": "PILYQ COLOR BLOCK BANDEAU ",
+          "guid": "af13f2b1-5096-11e9-bb8f-ac1f6b6e0406",
+          "price": 10,
+          "category": "1cf9dbed-27ae-11e9-8f8f-ac220b51d18c",
+          "color": "94696a80-508e-11e9-bb8f-ac1f6b6e0406"
+        },
+        {
+          "name": "INDIAN SUMMER PONCHO",
+          "guid": "af13f2bd-5096-11e9-bb8f-ac1f6b6e0406",
+          "price": 100,
+          "category": "d8ce39b5-2b6c-11e9-bb92-ac1f6b6e045a",
+          "color": "94696a6c-508e-11e9-bb8f-ac1f6b6e0406"
+        },
+        {
+          "name": "KIKI",
+          "guid": "30ced8b3-3b1d-11e9-bb8f-ac1f6b67576f",
+          "price": 1200,
+          "category": "1cf9dbf7-27ae-11e9-8f8f-ac220b51d18c",
+          "color": "94696a67-508e-11e9-bb8f-ac1f6b6e0406"
+        },
+        {
+          "name": "AWA",
+          "guid": "af13f2d1-5096-11e9-bb8f-ac1f6b6e0406",
+          "price": 100000,
+          "category": "1cf9dbed-27ae-11e9-8f8f-ac220b51d18c",
+          "color": "94696a6c-508e-11e9-bb8f-ac1f6b6e0406"
+        }
+      ]
+    }
+  ]
+}
